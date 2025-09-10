@@ -26,3 +26,8 @@ jobs:
           pytest
 
 
+      - name: Tests
+        working-directory: src
+        run: | 
+          python -m pytest 
+
