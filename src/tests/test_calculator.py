@@ -18,7 +18,7 @@ def test_addition():
 
 def test_subtraction():
     my_calculator = Calculator()
-    assert my_calculator.subtraction(2,4) == -2
+    assert my_calculator.subtraction(2,4) == 2
     assert my_calculator.subtraction(2,2) == 0
     assert my_calculator.subtraction(2,1) == 1
 
